@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#F5F7F1">
 <title>Vokabeltrainer</title>
 <style>
   :root{
@@ -265,6 +274,10 @@
   .btn.ghost{background:transparent;}
 </style>
 
+
+<style>body{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);}</style>
+</head>
+<body>
 <div class="app">
   <div class="topbar">
     <div class="brand">Vokabeltrainer</div>
@@ -581,3 +594,6 @@
   renderCard(pickNext());
 })();
 </script>
+
+</body>
+</html>
